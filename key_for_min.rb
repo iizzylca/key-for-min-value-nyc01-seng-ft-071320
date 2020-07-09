@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   name_hash.select do |name, value|
     if value < lowest_value
       binding.pry
-      lowest_value = value
+    
       return name
     end
   end
