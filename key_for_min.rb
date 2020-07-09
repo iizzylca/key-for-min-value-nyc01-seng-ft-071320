@@ -8,10 +8,11 @@ def key_for_min_value(name_hash)
   min_key = nil
   name_hash.each do |name, value|
     if min_value == nil
-      binding.pry
+      #binding.pry
       min_value = value
       min_key = name
     else min_value > value
+      binding.pry
       min_value = v
       min_key = k
     end
