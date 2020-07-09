@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
   v = (0..500)
   name_hash.each do |name, value|
     if value < v
+      binding.pry
       return name
     end
   end
