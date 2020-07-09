@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
     #or if the value of the current key is less than the lowest_value
     #then: set the lowest_value to value and lowest_key to key
     if lowest_value == 0 || value < lowest_value
-      pry
+      binding.pry
       lowest_value = value
       lowest_key = key
     end
