@@ -4,8 +4,7 @@ require'pry'
 
 def key_for_min_value(name_hash)
   #binding.pry
-  name_hash.find_all do |name, value|
-    binding.pry
+  name_hash.each do |name, value|
     name = value < 10
   end
 
