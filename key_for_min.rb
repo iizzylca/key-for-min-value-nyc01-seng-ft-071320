@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   #binding.pry
   name_hash.find_all do |name, value|
     binding.pry
-    value
+    name = value < 10
   end
 
 end
